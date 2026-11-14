@@ -10,7 +10,11 @@
     <style>
         *{
             font-family: "Roboto", sans-serif;
-            background-color: whitesmoke;
+            background-color: light-dark(whitesmoke, black) ;
+        }
+
+        :root{
+            color-scheme: light dark;
         }
 
         #card{
@@ -20,10 +24,17 @@
         }
 
         .heading{
-            background-color: yellowgreen;
+            background-color: light-dark(yellowgreen, purple);
             color: white;
             padding-left: 10px;
             border-radius: 10px;
+        }
+
+        footer{
+            position:absolute;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
         }
     </style>
 </head>
@@ -37,13 +48,13 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-            <h2 class="heading">What I want to learn?</h2>
+            <h2 class="heading">What I want to learn next?</h2>
                 <ul>
                     <li>NodeJS</li>
                     <li>Bootstrap</li>
                     <li>Wordpress</li>
                 </ul>
             </div>
-        <footer>Test</footer>
+        <footer>Cihys04</footer>
     </body>
 </html>
