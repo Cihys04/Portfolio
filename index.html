@@ -6,37 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="darkmode.js" defer></script>
     <title>Moje Portfolio</title>
-    <style>
-        *{
-            font-family: "Roboto", sans-serif;
-            background-color: light-dark(whitesmoke, black) ;
-        }
-
-        :root{
-            color-scheme: light dark;
-        }
-
-        #card{
-            display: flex;
-            flex-direction: column;
-            margin: 0px 20% 0px 20%;
-        }
-
-        .heading{
-            background-color: light-dark(yellowgreen, purple);
-            color: white;
-            padding-left: 10px;
-            border-radius: 10px;
-        }
-
-        footer{
-            position:absolute;
-            width: 100%;
-            text-align: center;
-            bottom: 0;
-        }
-    </style>
 </head>
     <body>
         <div id="card">
@@ -54,7 +26,8 @@
                     <li>Bootstrap</li>
                     <li>Wordpress</li>
                 </ul>
-            </div>
+            <button id="theme-switch">Toggle color theme</button>
+        </div>
         <footer>Cihys04</footer>
     </body>
 </html>
