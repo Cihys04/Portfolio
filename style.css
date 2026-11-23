@@ -27,6 +27,12 @@ p, li{
 
 ul { list-style-type: var(--emoji); }
 
+button{
+    background-color: var(--accent-color);
+    color: var(--base-color);
+    border-radius: 25px;
+}
+
 #card{
     display: flex;
     flex-direction: column;
