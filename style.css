@@ -6,12 +6,14 @@
     --base-color: white;
     --secondary-color: yellowgreen;
     --accent-color: black;
+    --emoji: "🟢 ";
 }
 
 .darkmode{
     --base-color: #1a1a1a;
     --secondary-color: purple;
     --accent-color: #f2f2f2;
+    --emoji: "🟣 ";
 }
 
 body{
@@ -23,6 +25,7 @@ p, li{
     color: var(--accent-color);
 }
 
+ul { list-style-type: var(--emoji); }
 
 #card{
     display: flex;
